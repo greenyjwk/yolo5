@@ -4,19 +4,15 @@
 import math
 import warnings
 from pathlib import Path
-
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
-
 from utils import TryExcept, threaded
-
 
 def fitness(x):
     """Calculates fitness of a model using weighted sum of metrics P, R, mAP@0.5, mAP@0.5:0.95."""
     w = [0.0, 0.0, 0.1, 0.9]  # weights for [P, R, mAP@0.5, mAP@0.5:0.95]
     return (x[:, :4] * w).sum(1)
-
 
 def smooth(y, f=0.05):
     """Applies box filter smoothing to array `y` with fraction `f`, yielding a smoothed array."""
@@ -24,7 +20,6 @@ def smooth(y, f=0.05):
     p = np.ones(nf // 2)  # ones padding
     yp = np.concatenate((p * y[0], y, p * y[-1]), 0)  # y padded
     return np.convolve(yp, np.ones(nf) / nf, mode="valid")  # y-smoothed
-
 
 def ap_per_class(tp, conf, pred_cls, target_cls, plot=False, save_dir=".", names=(), eps=1e-16, prefix=""):
     """
@@ -41,11 +36,13 @@ def ap_per_class(tp, conf, pred_cls, target_cls, plot=False, save_dir=".", names
     # Returns
         The average precision as computed in py-faster-rcnn.
     """
-
+    
     # Sort by objectness
     i = np.argsort(-conf)
     tp, conf, pred_cls = tp[i], conf[i], pred_cls[i]
-
+    # print()
+    # print("This is real tp", tp)
+    # print()
     # Find unique classes
     unique_classes, nt = np.unique(target_cls, return_counts=True)
     nc = unique_classes.shape[0]  # number of classes, number of detections
@@ -53,7 +50,13 @@ def ap_per_class(tp, conf, pred_cls, target_cls, plot=False, save_dir=".", names
     # Create Precision-Recall curve and compute AP for each class
     px, py = np.linspace(0, 1, 1000), []  # for plotting
     ap, p, r = np.zeros((nc, tp.shape[1])), np.zeros((nc, 1000)), np.zeros((nc, 1000))
+    # print("unique_classes", unique_classes)
     for ci, c in enumerate(unique_classes):
+        # print("pred_cls.shape", pred_cls.shape)
+        # print("pred_cls", pred_cls)
+        # print()
+        # print("c.shape", c.shape)
+        # print("c", c)
         i = pred_cls == c
         n_l = nt[ci]  # number of labels
         n_p = i.sum()  # number of predictions
@@ -66,6 +69,17 @@ def ap_per_class(tp, conf, pred_cls, target_cls, plot=False, save_dir=".", names
 
         # Recall
         recall = tpc / (n_l + eps)  # recall curve
+        # print("i.shape", i.shape)
+        # print()
+        # print("tp[i].shape", tp[i].shape)
+        # print()
+        # print("tp[i]", tp[i])
+        # print()
+        # print("tpc.shape", tpc.shape)
+        # print("tpc          ", tpc)
+        # print()
+        # print("(n_l + eps)  ", (n_l + eps))
+        # print("recall[:, 0] ", recall[:, 0])
         r[ci] = np.interp(-px, -conf[i], recall[:, 0], left=0)  # negative x, xp because xp decreases
 
         # Precision
@@ -127,10 +141,14 @@ class ConfusionMatrix:
     # Updated version of https://github.com/kaanakan/object_detection_confusion_matrix
     def __init__(self, nc, conf=0.25, iou_thres=0.45):
         """Initializes ConfusionMatrix with given number of classes, confidence, and IoU threshold."""
+        print("Confidence for Confusion Matrix: ", conf)
+        print("IoU Threshold for Confusion Matrix: ", iou_thres)
         self.matrix = np.zeros((nc + 1, nc + 1))
         self.nc = nc  # number of classes
         self.conf = conf
         self.iou_thres = iou_thres
+        print("slef.conf       Confidence for Confusion Matrix: ", self.conf)
+        print("self.iou_thres       Confidence for Confusion Matrix: ", self.iou_thres)
 
     def process_batch(self, detections, labels):
         """
@@ -148,13 +166,21 @@ class ConfusionMatrix:
             for gc in gt_classes:
                 self.matrix[self.nc, gc] += 1  # background FN
             return
-
+        
         detections = detections[detections[:, 4] > self.conf]
         gt_classes = labels[:, 0].int()
         detection_classes = detections[:, 5].int()
+        # print()
+        # print()
+        # print(detections[:, :4])
+        # print("After: detections[:, :4].shape", detections[:, :4].shape)
+        # print()
+        # print()
         iou = box_iou(labels[:, 1:], detections[:, :4])
 
         x = torch.where(iou > self.iou_thres)
+        # print("x.shape", x.shape)
+        # print("x", x)
         if x[0].shape[0]:
             matches = torch.cat((torch.stack(x, 1), iou[x[0], x[1]][:, None]), 1).cpu().numpy()
             if x[0].shape[0] > 1:
@@ -189,27 +215,46 @@ class ConfusionMatrix:
         return tp[:-1], fp[:-1]  # remove background class
 
     @TryExcept("WARNING ⚠️ ConfusionMatrix plot failure")
-    def plot(self, normalize=True, save_dir="", names=()):
+    def plot(self, normalize=False, save_dir="", names=()):
         """Plots confusion matrix using seaborn, optional normalization; can save plot to specified directory."""
         import seaborn as sn
 
+        # # #### for microbleed task #####
+        double_label = False
+        if double_label:
+            temp = np.zeros((2,2))
+            temp[0,0] = self.matrix[0][0]
+            temp[0,1] = self.matrix[0][1] + self.matrix[0][2]
+            temp[1,0] = self.matrix[1][0] + self.matrix[2][0]
+            temp[1,1] = 0
+            self.matrix = temp
+            names = ['CMB', "Non-CMB"]
+
         array = self.matrix / ((self.matrix.sum(0).reshape(1, -1) + 1e-9) if normalize else 1)  # normalize columns
         array[array < 0.005] = np.nan  # don't annotate (would appear as 0.00)
+        
+        array = array.astype(int)
+        array[-1][-1] = 0            
 
         fig, ax = plt.subplots(1, 1, figsize=(12, 9), tight_layout=True)
         nc, nn = self.nc, len(names)  # number of classes, names
         sn.set(font_scale=1.0 if nc < 50 else 0.8)  # for label size
         labels = (0 < nn < 99) and (nn == nc)  # apply names to ticklabels
-        ticklabels = (names + ["background"]) if labels else "auto"
+
+        if double_label:
+            ticklabels = (names) if labels else "auto"
+        else:
+            ticklabels = (names + ["background"]) if labels else "auto"
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")  # suppress empty matrix RuntimeWarning: All-NaN slice encountered
             sn.heatmap(
                 array,
                 ax=ax,
                 annot=nc < 30,
-                annot_kws={"size": 8},
+                annot_kws={"size": 20},
                 cmap="Blues",
-                fmt=".2f",
+                fmt='d',
+                # fmt='0.3f',
                 square=True,
                 vmin=0.0,
                 xticklabels=ticklabels,

@@ -1,0 +1,7 @@
+# path: /mnt/storage/ji/CMB_Classification/prepared_dataset  # dataset root dir
+path: /mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+nc: 1  # number of classes
+names: ['c']  # class names

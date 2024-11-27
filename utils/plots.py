@@ -37,6 +37,7 @@ class Colors:
         Colors derived from `hex = matplotlib.colors.TABLEAU_COLORS.values()`.
         """
         hexs = (
+            "00C2FF",            
             "FF3838",
             "FF9D97",
             "FF701F",
@@ -48,7 +49,6 @@ class Colors:
             "1A9334",
             "00D4BB",
             "2C99A8",
-            "00C2FF",
             "344593",
             "6473FF",
             "0018EC",

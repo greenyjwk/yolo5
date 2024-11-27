@@ -1,0 +1,367 @@
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_046.txt
+0 0.3125 0.4404296875 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_055.txt
+0 0.4794921875 0.328125 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_109.txt
+0 0.412109375 0.4404296875 0.0078125 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_091.txt
+0 0.6015625 0.35546875 0.00390625 0.00390625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_091.txt
+0 0.5546875 0.3818359375 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-212_slice_123.txt
+0 0.6982421875 0.5400390625 0.001953125 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_025.txt
+0 0.3134765625 0.4189453125 0.009765625 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_090.txt
+0 0.6025390625 0.3564453125 0.005859375 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_090.txt
+0 0.5546875 0.3818359375 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-229_slice_128.txt
+0 0.3271484375 0.662109375 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_051.txt
+0 0.3134765625 0.4423828125 0.009765625 0.017578125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_051.txt
+0 0.373046875 0.4912109375 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-326_slice_025.txt
+0 0.75 0.54296875 0.0 0.0
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-208_slice_115.txt
+0 0.279296875 0.423828125 0.00390625 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-305_slice_003.txt
+0 0.513671875 0.326171875 0.00390625 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-229_slice_126.txt
+0 0.326171875 0.662109375 0.00390625 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_050.txt
+0 0.3095703125 0.4404296875 0.017578125 0.017578125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_050.txt
+0 0.3740234375 0.4912109375 0.005859375 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-213_slice_091.txt
+0 0.2998046875 0.328125 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-208_slice_112.txt
+0 0.2783203125 0.423828125 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-313_slice_009.txt
+0 0.283203125 0.41796875 0.00390625 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.4970703125 0.4111328125 0.017578125 0.013671875
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.529296875 0.4150390625 0.015625 0.013671875
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.515625 0.4228515625 0.00390625 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.537109375 0.427734375 0.0078125 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.5244140625 0.435546875 0.005859375 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.5322265625 0.5751953125 0.013671875 0.017578125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_017.txt
+0 0.509765625 0.591796875 0.02734375 0.01171875
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-215_slice_093.txt
+0 0.443359375 0.5283203125 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-215_slice_094.txt
+0 0.443359375 0.5283203125 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-208_slice_111.txt
+0 0.2802734375 0.423828125 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_089.txt
+0 0.603515625 0.3564453125 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-312_slice_024.txt
+0 0.353515625 0.44140625 0.00390625 0.0
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_108.txt
+0 0.412109375 0.4404296875 0.0078125 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_015.txt
+0 0.5263671875 0.4326171875 0.005859375 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_015.txt
+0 0.54296875 0.4482421875 0.00390625 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_015.txt
+0 0.5361328125 0.57421875 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.4931640625 0.400390625 0.009765625 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.5234375 0.4072265625 0.01171875 0.009765625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.5107421875 0.421875 0.005859375 0.015625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.5419921875 0.4208984375 0.005859375 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.53125 0.431640625 0.01171875 0.01953125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.546875 0.55859375 0.0078125 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.541015625 0.5771484375 0.01171875 0.025390625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.517578125 0.5791015625 0.015625 0.017578125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.5244140625 0.591796875 0.005859375 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-108_slice_016.txt
+0 0.4951171875 0.5966796875 0.005859375 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_102.txt
+0 0.3955078125 0.51953125 0.009765625 0.01171875
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_052.txt
+0 0.3134765625 0.4404296875 0.005859375 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-208_slice_114.txt
+0 0.2802734375 0.423828125 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_106.txt
+0 0.412109375 0.4130859375 0.00390625 0.005859375
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_106.txt
+0 0.4140625 0.4423828125 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-305_slice_013.txt
+0 0.21875 0.587890625 0.0078125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_105.txt
+0 0.4111328125 0.4130859375 0.005859375 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-213_slice_093.txt
+0 0.30078125 0.3310546875 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-212_slice_121.txt
+0 0.6982421875 0.5390625 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-316_slice_015.txt
+0 0.46875 0.583984375 0.0078125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_104.txt
+0 0.4111328125 0.4140625 0.005859375 0.0078125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_104.txt
+0 0.396484375 0.51953125 0.0078125 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-208_slice_113.txt
+0 0.279296875 0.4228515625 0.0078125 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_054.txt
+0 0.478515625 0.3271484375 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-213_slice_092.txt
+0 0.2998046875 0.330078125 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_103.txt
+0 0.39453125 0.51953125 0.01171875 0.015625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-212_slice_122.txt
+0 0.697265625 0.5400390625 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_100.txt
+0 0.396484375 0.5205078125 0.00390625 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-326_slice_024.txt
+0 0.75 0.546875 0.0078125 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-305_slice_012.txt
+0 0.21875 0.5859375 0.0078125 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_110.txt
+0 0.4130859375 0.4404296875 0.005859375 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-312_slice_023.txt
+0 0.419921875 0.419921875 0.00390625 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_107.txt
+0 0.412109375 0.4404296875 0.0078125 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_092.txt
+0 0.5556640625 0.3828125 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-215_slice_095.txt
+0 0.443359375 0.529296875 0.00390625 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_049.txt
+0 0.310546875 0.4404296875 0.01171875 0.017578125
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_049.txt
+0 0.373046875 0.4921875 0.00390625 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-316_slice_019.txt
+0 0.2890625 0.630859375 0.0078125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_048.txt
+0 0.3134765625 0.439453125 0.009765625 0.015625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_048.txt
+0 0.375 0.4921875 0.00390625 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_101.txt
+0 0.3974609375 0.5205078125 0.009765625 0.009765625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_053.txt
+0 0.48046875 0.328125 0.00390625 0.01171875
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_053.txt
+0 0.3115234375 0.44140625 0.005859375 0.0078125
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_088.txt
+0 0.6044921875 0.3564453125 0.001953125 0.005859375
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-215_slice_092.txt
+0 0.4423828125 0.529296875 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_047.txt
+0 0.3134765625 0.4384765625 0.005859375 0.009765625
+
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-228_slice_047.txt
+0 0.3740234375 0.4921875 0.001953125 0.00390625
+
+
+/mnt/storage/ji/Cerebral_Microbleeds_Dataset/dataset_CMB_1class/labels/val/sub-229_slice_127.txt
+0 0.3271484375 0.662109375 0.001953125 0.00390625
+

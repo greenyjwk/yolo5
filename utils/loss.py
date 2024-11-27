@@ -119,6 +119,7 @@ class ComputeLoss:
         # Focal loss
         g = h["fl_gamma"]  # focal loss gamma
         if g > 0:
+            print('Focal Loss is applied_ gamma is: ', g)
             BCEcls, BCEobj = FocalLoss(BCEcls, g), FocalLoss(BCEobj, g)
 
         m = de_parallel(model).model[-1]  # Detect() module
